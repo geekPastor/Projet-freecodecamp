@@ -13,14 +13,14 @@ body{
 
 
 .menu-bar{
-    background: rgb(0, 100, 0);
+    background: rgb(0, 0, 0);
     text-align: center;
 }
 
 .menu-bar ul {
     display: inline-flex;
     list-style: none;
-    color: #fff;
+    color: red;
 }
 
 
@@ -32,11 +32,11 @@ body{
 
 .menu-bar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: red;
 }
 
 .active,.menu-bar ul li:hover{
-    background: #2bab0d;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
@@ -48,7 +48,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1{
    display: block;
    position: absolute;
-   background: rgb(0, 100, 0); 
+   background: rgb(0, 0, 0); 
    margin-top: 15px;
    margin-left: -15px;
 }
@@ -61,7 +61,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1 ul li{
     width: 150px;
     padding: 10px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid red;
     background: transparent;
     text-align: left;
 }
@@ -82,9 +82,10 @@ body{
 
 .hover-me:hover .sub-menu-2{
     position: absolute;
+    left: 180px;
     display: block;
     margin-top: -40px;
     margin-left: 14px;
-    background: rgb(0, 100, 0);
+    background: rgb(0, 0, 0);
 }
      
